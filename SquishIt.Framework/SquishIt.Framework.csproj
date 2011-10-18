@@ -92,6 +92,7 @@
     <Compile Include="Base\IBundle.cs" />
     <Compile Include="Coffee\CoffeescriptCompiler.cs" />
     <Compile Include="IBundleCache.cs" />
+    <Compile Include="Less\LessCompiler.cs" />
     <Compile Include="Minifiers\IMinifier.cs" />
     <Compile Include="Bundle.cs" />
     <Compile Include="BundleCache.cs" />
@@ -154,6 +155,7 @@
     <Content Include="closure-compiler\compiler.jar">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Less\less-1.1.3.min.js" />
     <EmbeddedResource Include="Coffee\coffee-script.js" />
   </ItemGroup>
   <ItemGroup>
